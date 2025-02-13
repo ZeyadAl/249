@@ -1,7 +1,9 @@
 from funcs import *
+import pysam
+import io
 
-grch_path = "/Users/zeyad/Documents/school_stuff/kaust/249/Assignments/1/ncbi_dataset/ncbi_dataset/data/GCA_000001405.29/GCA_000001405.29_GRCh38.p14_genomic.fna"
-t2t_path = "/Users/zeyad/Documents/school_stuff/kaust/249/Assignments/1/ncbi_dataset/ncbi_dataset/data/GCA_009914755.4/GCA_009914755.4_T2T-CHM13v2.0_genomic.fna"
+grch_path = "/Users/zeyad/Documents/school_stuff/kaust/249/Assignments/1/ncbi_dataset/ncbi_dataset/data/GCA_000001405.29/GCA_000001405.29_GRCh38.p14_genomic.fna.gz"
+t2t_path = "/Users/zeyad/Documents/school_stuff/kaust/249/Assignments/1/ncbi_dataset/ncbi_dataset/data/GCA_009914755.4/GCA_009914755.4_T2T-CHM13v2.0_genomic.fna.gz"
 
 filename = t2t_path
 
@@ -29,23 +31,21 @@ def process_group(header, text):
                     print(f"{header}, loc={i}, kind={result_backward[1]}")
     
 def read_groups_streaming(filename):
-    with open(filename, 'r') as file:
-        header = None
-        lines = ""
-
-        for line in file:
-            line = line.rstrip().upper()
-
-            if line.startswith(">"):  # New header
-                if header is not None:
-                    process_group(header, lines)  # process
-                header = line  # new group
-                lines = ""  # reset
-            else:
-                lines += line
-
-        if header is not None:
-            process_group(header, lines)  # last group
+    with pysam.BGZFile(filename, 'r') as bgzf_file:
+        with io.TextIOWrapper(bgzf_file) as file:
+            header = None
+            lines = ""
+            for line in file:
+                line = line.rstrip().upper()
+                if line.startswith(">"):  # header
+                    if header is not None:
+                        process_group(header, lines)  # process
+                    header = line  # new group
+                    lines = ""  # reset
+                else:
+                    lines += line
+            if header is not None:
+                process_group(header, lines)  # last group
 
 read_groups_streaming(filename)
 print(f"num of offby1_matches={offby1_matches}")
