@@ -3,7 +3,7 @@
 
 ## Description
 To compare the strings we used the naive algorithm. For the up to one mismatch we first used the pigeone principle approach, the we used the naive approach to check the other half.
-As for managing the RAM, we read the file containing the text in chunks (here I used the chunks being the chromosomes to make the implementaion easier, but this could be chosen to fit a specific space in RAM). We then used the time command line tool to find the time and peak memory usage.
+As for managing the RAM, we read the file containing the text in chunks from the .gz using pysam and decoding it using io (here I used the chunks being the chromosomes to make the implementaion easier, but this could be chosen to fit a specific space in RAM). We then used the time command line tool to find the time and peak memory usage.
 
 ## Part I & II
 The file exact.py should output the result for exact matches, and offby1.py should output the results for up to one mismatch.
