@@ -26,48 +26,24 @@ t2t
 Found match! >CP068276.2 HOMO SAPIENS ISOLATE CHM13 CHROMOSOME 2, start = 186833277, end = 186833587
 Found match! >CP068271.2 HOMO SAPIENS ISOLATE CHM13 CHROMOSOME 7, start = 39966041, end = 39966351
 num of matches=2
-	6m28.43s real		6m26.94s user		1.49s sys
-           376799232  maximum resident set size
+	6m57.44s real		6m56.03s user		1.33s sys
+           325386240  maximum resident set size
                    0  average shared memory size
                    0  average unshared data size
                    0  average unshared stack size
-              297003  page reclaims
-                  38  page faults
+              249532  page reclaims
+                  48  page faults
                    0  swaps
                    0  block input operations
                    0  block output operations
                    0  messages sent
                    0  messages received
                    0  signals received
-                   5  voluntary context switches
-                3123  involuntary context switches
-      10541717895175  instructions retired
-       1491948167790  cycles elapsed
-           311149288  peak memory footprint
----------------
-t2t mis-matches
-pat=GGCCGGGCGCGGTGGCTCACGCCTGTAATCCCAGCACTTTGGGAGGCCGAGGCGGGCGGATCACGAGGTCAGGAGATCGAGACCATCCTGGCTAACACGGTGAAACCCCGTCTCTACTAAAAATACAAAAAATTAGCCGGGCGTGGTGGCGGGCGCCTGTAGTCCCAGCTACTCGGGAGGCTGAGGCAGGAGAATGGCGTGAACCCGGGAGGCGGAGCTTGCAGTGAGCCGAGATCGCGCCACTGCACTCCAGCCTGGGCGACAGAGCGAGACTCCGTCTCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-   Found off by 1! loc=143946938, kind=rep
-   Found off by 1! loc=190858894, kind=rep
-   Found off by 1! loc=186833277, kind=exact
-   Found off by 1! loc=69350794, kind=rep
-   Found off by 1! loc=136221657, kind=rep
-   Found off by 1! loc=126911808, kind=rep
-   Found off by 1! loc=51234801, kind=rep
-   Found off by 1! loc=68212687, kind=rep
-   Found off by 1! loc=39966041, kind=exact
-   Found off by 1! loc=49189460, kind=rep
-   Found off by 1! loc=101916771, kind=rep
-   Found off by 1! loc=86916177, kind=rep
-   Found off by 1! loc=62817411, kind=rep
-   Found off by 1! loc=79100751, kind=rep
-   Found off by 1! loc=66839102, kind=insr
-   Found off by 1! loc=17947515, kind=rep
-   Found off by 1! loc=2142369, kind=rep
-   Found off by 1! loc=19541649, kind=rep
-   Found off by 1! loc=66026304, kind=rep
-   Found off by 1! loc=24874951, kind=rep
-num of offby1_matches=20
+                   0  voluntary context switches
+                7922  involuntary context switches
+      10591973880894  instructions retired
+       1690117857865  cycles elapsed
+           260014776  peak memory footprint
 -----------------------------
 grch mis-matches
 >CM000663.2 HOMO SAPIENS CHROMOSOME 1, GRCH38 REFERENCE PRIMARY ASSEMBLY, loc=85940122, kind=rep
@@ -128,21 +104,21 @@ T2T mismatches
 >CP068260.2 HOMO SAPIENS ISOLATE CHM13 CHROMOSOME 18, loc=66026304, kind=rep
 >CP068257.2 HOMO SAPIENS ISOLATE CHM13 CHROMOSOME 21, loc=24874951, kind=rep
 num of offby1_matches=20
-	10m13.32s real		10m10.69s user		2.49s sys
-           301711360  maximum resident set size
+	10m23.53s real		10m21.58s user		1.89s sys
+           300269568  maximum resident set size
                    0  average shared memory size
                    0  average unshared data size
                    0  average unshared stack size
-              315693  page reclaims
-                  46  page faults
+              316618  page reclaims
+                  40  page faults
                    0  swaps
                    0  block input operations
                    0  block output operations
                    0  messages sent
                    0  messages received
                    0  signals received
-                1060  voluntary context switches
-                6628  involuntary context switches
-      17312226961992  instructions retired
-       2480760647922  cycles elapsed
-           256017032  peak memory footprint
+                   2  voluntary context switches
+                5424  involuntary context switches
+      17343243755475  instructions retired
+       2517282216245  cycles elapsed
+           260309616  peak memory footprint
