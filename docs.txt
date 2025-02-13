@@ -1,0 +1,20 @@
+Files:
+
+README.md: has the report
+funcs.py: has helper functions, and reads the pattern
+    4 main functions:
+        compare: compares if two strings are identical
+        sub_compare: compares if two strings have an identical half
+        forward_checking: checks in a forward manner if we have a rep, insr, or del
+        backward_checking: uses forward_checking but flips the input
+requirements.txt: has requirements
+exact.py: finds the exact matches
+offby1.py: find the matches up to one mismatch
+info: has the info dump that comes from the output of exact.py, offby1.py and the time tool.
+docs.txt: this file
+
+
+How to run:
+make sure funcs.py has the path to the file containing the patters
+    To find exact matches, run exact.py but make sure filename has the path to the genome you want.
+    To find up to one mismatch, run offby1.py but also make sure file name has the path to the genome.

@@ -1,0 +1,148 @@
+GCRh
+Found match! >CM000665.2 HOMO SAPIENS CHROMOSOME 3, GRCH38 REFERENCE PRIMARY ASSEMBLY, start = 88629832, end = 88630142
+Found match! >CM000669.2 HOMO SAPIENS CHROMOSOME 7, GRCH38 REFERENCE PRIMARY ASSEMBLY, start = 39808489, end = 39808799
+Found match! >CM000679.2 HOMO SAPIENS CHROMOSOME 17, GRCH38 REFERENCE PRIMARY ASSEMBLY, start = 18689763, end = 18690073
+num of matches=3
+	6m15.79s real		6m13.91s user		1.83s sys
+           702791680  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+              284924  page reclaims
+                  38  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   0  voluntary context switches
+                3052  involuntary context switches
+      11192594769964  instructions retired
+       1528018983647  cycles elapsed
+           513000312  peak memory footprint
+--------------------
+t2t
+Found match! >CP068276.2 HOMO SAPIENS ISOLATE CHM13 CHROMOSOME 2, start = 186833277, end = 186833587
+Found match! >CP068271.2 HOMO SAPIENS ISOLATE CHM13 CHROMOSOME 7, start = 39966041, end = 39966351
+num of matches=2
+	6m7.69s real		6m4.96s user		2.69s sys
+           376799232  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+              297003  page reclaims
+                  38  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   5  voluntary context switches
+                3123  involuntary context switches
+      10541717895175  instructions retired
+       1491948167790  cycles elapsed
+           311149288  peak memory footprint
+---------------
+t2t mis-matches
+pat=GGCCGGGCGCGGTGGCTCACGCCTGTAATCCCAGCACTTTGGGAGGCCGAGGCGGGCGGATCACGAGGTCAGGAGATCGAGACCATCCTGGCTAACACGGTGAAACCCCGTCTCTACTAAAAATACAAAAAATTAGCCGGGCGTGGTGGCGGGCGCCTGTAGTCCCAGCTACTCGGGAGGCTGAGGCAGGAGAATGGCGTGAACCCGGGAGGCGGAGCTTGCAGTGAGCCGAGATCGCGCCACTGCACTCCAGCCTGGGCGACAGAGCGAGACTCCGTCTCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+   Found off by 1! loc=143946938, kind=rep
+   Found off by 1! loc=190858894, kind=rep
+   Found off by 1! loc=186833277, kind=exact
+   Found off by 1! loc=69350794, kind=rep
+   Found off by 1! loc=136221657, kind=rep
+   Found off by 1! loc=126911808, kind=rep
+   Found off by 1! loc=51234801, kind=rep
+   Found off by 1! loc=68212687, kind=rep
+   Found off by 1! loc=39966041, kind=exact
+   Found off by 1! loc=49189460, kind=rep
+   Found off by 1! loc=101916771, kind=rep
+   Found off by 1! loc=86916177, kind=rep
+   Found off by 1! loc=62817411, kind=rep
+   Found off by 1! loc=79100751, kind=rep
+   Found off by 1! loc=66839102, kind=insr
+   Found off by 1! loc=17947515, kind=rep
+   Found off by 1! loc=2142369, kind=rep
+   Found off by 1! loc=19541649, kind=rep
+   Found off by 1! loc=66026304, kind=rep
+   Found off by 1! loc=24874951, kind=rep
+num of offby1_matches=20
+-----------------------------
+grch mis-matches
+>CM000663.2 HOMO SAPIENS CHROMOSOME 1, GRCH38 REFERENCE PRIMARY ASSEMBLY, loc=85940122, kind=rep
+>CM000663.2 HOMO SAPIENS CHROMOSOME 1, GRCH38 REFERENCE PRIMARY ASSEMBLY, loc=144846234, kind=rep
+>CM000665.2 HOMO SAPIENS CHROMOSOME 3, GRCH38 REFERENCE PRIMARY ASSEMBLY, loc=69313857, kind=rep
+>CM000665.2 HOMO SAPIENS CHROMOSOME 3, GRCH38 REFERENCE PRIMARY ASSEMBLY, loc=88629832, kind=exact
+>CM000666.2 HOMO SAPIENS CHROMOSOME 4, GRCH38 REFERENCE PRIMARY ASSEMBLY, loc=132898458, kind=rep
+>CM000667.2 HOMO SAPIENS CHROMOSOME 5, GRCH38 REFERENCE PRIMARY ASSEMBLY, loc=125028156, kind=rep
+>CM000669.2 HOMO SAPIENS CHROMOSOME 7, GRCH38 REFERENCE PRIMARY ASSEMBLY, loc=39808489, kind=exact
+>CM000670.2 HOMO SAPIENS CHROMOSOME 8, GRCH38 REFERENCE PRIMARY ASSEMBLY, loc=100790760, kind=rep
+>CM000674.2 HOMO SAPIENS CHROMOSOME 12, GRCH38 REFERENCE PRIMARY ASSEMBLY, loc=62838639, kind=rep
+>CM000675.2 HOMO SAPIENS CHROMOSOME 13, GRCH38 REFERENCE PRIMARY ASSEMBLY, loc=63082060, kind=rep
+>CM000676.2 HOMO SAPIENS CHROMOSOME 14, GRCH38 REFERENCE PRIMARY ASSEMBLY, loc=34836097, kind=rep
+>CM000677.2 HOMO SAPIENS CHROMOSOME 15, GRCH38 REFERENCE PRIMARY ASSEMBLY, loc=53225105, kind=rep
+>CM000679.2 HOMO SAPIENS CHROMOSOME 17, GRCH38 REFERENCE PRIMARY ASSEMBLY, loc=18689763, kind=exact
+>CM000679.2 HOMO SAPIENS CHROMOSOME 17, GRCH38 REFERENCE PRIMARY ASSEMBLY, loc=19593503, kind=rep
+>CM000683.2 HOMO SAPIENS CHROMOSOME 21, GRCH38 REFERENCE PRIMARY ASSEMBLY, loc=26516833, kind=rep
+>KI270778.1 HOMO SAPIENS CHROMOSOME 3 GENOMIC CONTIG, GRCH38 REFERENCE ASSEMBLY ALTERNATE LOCUS GROUP ALT_REF_LOCI_1, loc=54847, kind=rep
+num of offby1_matches=16
+	10m50.81s real		10m48.09s user		2.51s sys
+           271564800  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+              303241  page reclaims
+                  76  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                  26  voluntary context switches
+               10552  involuntary context switches
+      18226500485238  instructions retired
+       2627929402038  cycles elapsed
+           256623216  peak memory footprint
+----------------------
+T2T mismatches
+>CP068277.2 HOMO SAPIENS ISOLATE CHM13 CHROMOSOME 1, loc=143946938, kind=rep
+>CP068277.2 HOMO SAPIENS ISOLATE CHM13 CHROMOSOME 1, loc=190858894, kind=rep
+>CP068276.2 HOMO SAPIENS ISOLATE CHM13 CHROMOSOME 2, loc=186833277, kind=exact
+>CP068275.2 HOMO SAPIENS ISOLATE CHM13 CHROMOSOME 3, loc=69350794, kind=rep
+>CP068274.2 HOMO SAPIENS ISOLATE CHM13 CHROMOSOME 4, loc=136221657, kind=rep
+>CP068273.2 HOMO SAPIENS ISOLATE CHM13 CHROMOSOME 5, loc=126911808, kind=rep
+>CP068272.2 HOMO SAPIENS ISOLATE CHM13 CHROMOSOME 6, loc=51234801, kind=rep
+>CP068272.2 HOMO SAPIENS ISOLATE CHM13 CHROMOSOME 6, loc=68212687, kind=rep
+>CP068271.2 HOMO SAPIENS ISOLATE CHM13 CHROMOSOME 7, loc=39966041, kind=exact
+>CP068271.2 HOMO SAPIENS ISOLATE CHM13 CHROMOSOME 7, loc=49189460, kind=rep
+>CP068270.2 HOMO SAPIENS ISOLATE CHM13 CHROMOSOME 8, loc=101916771, kind=rep
+>CP068267.2 HOMO SAPIENS ISOLATE CHM13 CHROMOSOME 11, loc=86916177, kind=rep
+>CP068266.2 HOMO SAPIENS ISOLATE CHM13 CHROMOSOME 12, loc=62817411, kind=rep
+>CP068266.2 HOMO SAPIENS ISOLATE CHM13 CHROMOSOME 12, loc=79100751, kind=rep
+>CP068265.2 HOMO SAPIENS ISOLATE CHM13 CHROMOSOME 13, loc=66839102, kind=insr
+>CP068264.2 HOMO SAPIENS ISOLATE CHM13 CHROMOSOME 14, loc=17947515, kind=rep
+>CP068261.2 HOMO SAPIENS ISOLATE CHM13 CHROMOSOME 17, loc=2142369, kind=rep
+>CP068261.2 HOMO SAPIENS ISOLATE CHM13 CHROMOSOME 17, loc=19541649, kind=rep
+>CP068260.2 HOMO SAPIENS ISOLATE CHM13 CHROMOSOME 18, loc=66026304, kind=rep
+>CP068257.2 HOMO SAPIENS ISOLATE CHM13 CHROMOSOME 21, loc=24874951, kind=rep
+num of offby1_matches=20
+	10m13.32s real		10m10.69s user		2.49s sys
+           301711360  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+              315693  page reclaims
+                  46  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                1060  voluntary context switches
+                6628  involuntary context switches
+      17312226961992  instructions retired
+       2480760647922  cycles elapsed
+           256017032  peak memory footprint
