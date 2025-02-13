@@ -3,30 +3,30 @@ Found match! >CM000665.2 HOMO SAPIENS CHROMOSOME 3, GRCH38 REFERENCE PRIMARY ASS
 Found match! >CM000669.2 HOMO SAPIENS CHROMOSOME 7, GRCH38 REFERENCE PRIMARY ASSEMBLY, start = 39808489, end = 39808799
 Found match! >CM000679.2 HOMO SAPIENS CHROMOSOME 17, GRCH38 REFERENCE PRIMARY ASSEMBLY, start = 18689763, end = 18690073
 num of matches=3
-	6m15.79s real		6m13.91s user		1.83s sys
-           702791680  maximum resident set size
+	6m34.53s real		6m32.90s user		1.58s sys
+           303202304  maximum resident set size
                    0  average shared memory size
                    0  average unshared data size
                    0  average unshared stack size
-              284924  page reclaims
-                  38  page faults
+              319534  page reclaims
+                  40  page faults
                    0  swaps
                    0  block input operations
                    0  block output operations
                    0  messages sent
                    0  messages received
                    0  signals received
-                   0  voluntary context switches
-                3052  involuntary context switches
-      11192594769964  instructions retired
-       1528018983647  cycles elapsed
-           513000312  peak memory footprint
+                   2  voluntary context switches
+                3318  involuntary context switches
+      11199863292255  instructions retired
+       1595463847401  cycles elapsed
+           260981408  peak memory footprint
 --------------------
 t2t
 Found match! >CP068276.2 HOMO SAPIENS ISOLATE CHM13 CHROMOSOME 2, start = 186833277, end = 186833587
 Found match! >CP068271.2 HOMO SAPIENS ISOLATE CHM13 CHROMOSOME 7, start = 39966041, end = 39966351
 num of matches=2
-	6m7.69s real		6m4.96s user		2.69s sys
+	6m28.43s real		6m26.94s user		1.49s sys
            376799232  maximum resident set size
                    0  average shared memory size
                    0  average unshared data size
@@ -87,24 +87,24 @@ grch mis-matches
 >CM000683.2 HOMO SAPIENS CHROMOSOME 21, GRCH38 REFERENCE PRIMARY ASSEMBLY, loc=26516833, kind=rep
 >KI270778.1 HOMO SAPIENS CHROMOSOME 3 GENOMIC CONTIG, GRCH38 REFERENCE ASSEMBLY ALTERNATE LOCUS GROUP ALT_REF_LOCI_1, loc=54847, kind=rep
 num of offby1_matches=16
-	10m50.81s real		10m48.09s user		2.51s sys
-           271564800  maximum resident set size
+	11m37.64s real		11m35.36s user		2.04s sys
+           280821760  maximum resident set size
                    0  average shared memory size
                    0  average unshared data size
                    0  average unshared stack size
-              303241  page reclaims
-                  76  page faults
+              308587  page reclaims
+                  40  page faults
                    0  swaps
                    0  block input operations
                    0  block output operations
                    0  messages sent
                    0  messages received
                    0  signals received
-                  26  voluntary context switches
-               10552  involuntary context switches
-      18226500485238  instructions retired
-       2627929402038  cycles elapsed
-           256623216  peak memory footprint
+                  18  voluntary context switches
+               13608  involuntary context switches
+      18376592280757  instructions retired
+       2820233784997  cycles elapsed
+           260539016  peak memory footprint
 ----------------------
 T2T mismatches
 >CP068277.2 HOMO SAPIENS ISOLATE CHM13 CHROMOSOME 1, loc=143946938, kind=rep
