@@ -61,7 +61,7 @@ CM000683.2 HOMO SAPIENS CHROMOSOME 21, GRCH38 REFERENCE PRIMARY ASSEMBLY, loc=26
 
 KI270778.1 HOMO SAPIENS CHROMOSOME 3 GENOMIC CONTIG, GRCH38 REFERENCE ASSEMBLY ALTERNATE LOCUS GROUP ALT_REF_LOCI_1, loc=54847, kind=rep
 
-##### T2T: 20 up to one mismatch (this includes exact matches)
+#### T2T: 20 up to one mismatch (this includes exact matches)
 CP068277.2 HOMO SAPIENS ISOLATE CHM13 CHROMOSOME 1, loc=143946938, kind=rep
 
 CP068277.2 HOMO SAPIENS ISOLATE CHM13 CHROMOSOME 1, loc=190858894, kind=rep
@@ -106,16 +106,16 @@ CP068257.2 HOMO SAPIENS ISOLATE CHM13 CHROMOSOME 21, loc=24874951, kind=rep
 ## Part IV
 
 ### Results for exact matches
-#### GRCh:  time: 6m15.79s, peak memory: 670.23MB
-#### T2T:   time: 6m7.69s,  peak memory: 359.34MB
+#### GRCh:  time: 6m34.53s, peak memory: 289.17MB
+#### T2T:   time: 6m57.44s,  peak memory: 310.31MB
 
 ### Results for up to one mismatches
-#### GRCh:  time: 10m50.81s, peak memory: 258.98MB
-#### T2T:   time: 10m13.32s, peak memory: 287.73MB
+#### GRCh:  time: 11m37.64s, peak memory: 267.81MB
+#### T2T:   time: 10m23.53s, peak memory: 286.36MB
 
 
 ## Part V
-### Reading compressed files is not implemented
+### Reading compressed files is implemented using pysam and io
 ### Handling sequences bigger than the RAM is implemented
 In the code we segment by chromosome, but we could easily change the segmentation to be of a fixed size for memory.
 
